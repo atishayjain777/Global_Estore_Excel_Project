@@ -75,7 +75,11 @@ It reflects how actual companies track **sales, profit, cost, and growth trends*
 - Used date hierarchy (Month–Quarter–FY) for timeline analysis.  
 - Combined monthly KPIs (Sales, COGS, Profit, GM%) in one view.  
 
-📄 *File:* ` Atishay_Jain_PnL_Statement_By_Month_Report.pdf`  
+📄 *File:* ` Atishay_Jain_PnL_Statement_By_Month_Report.pdf` 
+
+📊 All visuals and reports have been created using Power Pivot and Excel dashboards.  
+Please refer to the PDF reports in the “reports” folder for detailed analysis and visuals.
+
 
 **Validation:**  
 ✔ FY and Quarter logic (April–March) confirmed.  
