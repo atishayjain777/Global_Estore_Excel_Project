@@ -14,7 +14,24 @@ This project demonstrates a complete **Excel-based analytics workflow** for a gl
 Using Power Query and Power Pivot, I cleaned, modeled, and analyzed multi-year sales data (FY2011–FY2015).  
 It reflects how actual companies track **sales, profit, cost, and growth trends** using Excel dashboards and measures.  
 
----
+-## 🧩 Data Model (ER Diagram)
+
+The data model for this project was designed using **Power Pivot in Excel**,  
+where multiple tables were connected through key relationships (Star Schema).  
+
+### 🗂️ Tables Used:
+- **fact_sales_global_estore** – contains all transactional sales, quantity, discount, and profit data  
+- **Dim customer** – customer details (Segment, Country, Region)  
+- **Dim_product xlsx** – product category and sub-category details  
+- **Dim_Date** – calendar table for FY, Month, and Quarter calculations  
+- **dim_market xlsx** – geographical market segmentation for regional insights   
+- **ns target 2015** – target table containing sales targets for performance comparison  
+
+Below is the Entity Relationship Diagram (ERD) representing these relationships:
+
+[ER Diagram](Atishay_Jain_Global_Estore_ER_Diagram.png)
+
+--
 
 ## 📑 Reports Created  
 
@@ -119,6 +136,8 @@ Please refer to the PDF reports in the “reports” folder for detailed analysi
 │ ├── Atisahy_Jain_Customer_Performance_Report.pdf
 │ ├── Atisahy_Jain_PnL_Statement_By_Market_Report.pdf
 │ └── Atishay_Jain_PnL_Statement_By_Month_Report.pdf
+├── images/
+│   ├── Global_Estore_ER_Diagram.png
 
 ## 🔗 View Full Project  
 👉 ## 🔗 View Full Project  
